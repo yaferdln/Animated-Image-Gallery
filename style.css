@@ -1,0 +1,22 @@
+body {
+  background-color: #111;
+}
+.container {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.container img {
+  width: 12%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px tomato;
+  transition: all ease-in-out 0.4s;
+}
+img:hover {
+  width: 30%;
+}
